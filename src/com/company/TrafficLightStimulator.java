@@ -79,7 +79,7 @@ class TrafficLightSimulator implements Runnable {
         }
     }
 
-    // Return current color.
+    // Return current color
     synchronized TrafficLightColor getColor() {
         return tlc;
     }
